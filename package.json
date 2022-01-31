@@ -1,0 +1,22 @@
+{
+  "name": "@ull-esit-pl-1920/infix-to-egg",
+  "version": "1.0.0",
+  "description": "Práctica infix to egg",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "comp_peg": "pegjs lib/grammar.pegjs",
+    "comp_jison": "jison lib/grammar.jison"
+  },
+  "author": "alu0101031538 <alu0101031538@ull.edu.es> (https://github.com/miguelbravo7)",
+  "license": "ISC",
+  "dependencies": {
+    "@ull-esit-pl-1920/p7-t3-egg-2-miguel": "^2.0.1",
+    "chalk": "^4.0.0",
+    "jest": "^26.0.1",
+    "jison": "^0.4.18",
+    "pegjs": "^0.10.0",
+    "xregexp": "^4.3.0"
+  }
+}

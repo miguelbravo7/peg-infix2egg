@@ -1,0 +1,10 @@
+{
+    var x = [4,5]
+    function sum(x, y){
+        x + y
+    }
+    print(x.join("-"))
+    print(x.join("-").length)
+    var g = sum(8)
+    print(g(2))
+}
